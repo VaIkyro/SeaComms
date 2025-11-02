@@ -1,0 +1,84 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #2c2c2c;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+/* Headings */
+h2 {
+  margin-bottom: 20px;
+  color: #ffd700; /* Gold-ish for pirate theme */
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffd700;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #e6c200;
+}
+
+/* Links */
+a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Category cards */
+.card {
+  background-color: #2c2c2c;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
