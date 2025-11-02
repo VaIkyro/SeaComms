@@ -13,7 +13,7 @@ export const adminEmails = ["dylanvalkyro@gmail.com"]; // your admin emails
 // Main App
 export default function App() {
   return (
-    <HashRouter basename="/SeaComms/">
+    <HashRouter>
       <Routes>
         {/* Public routes */}
         <Route path="/login" element={<LoginPage />} />
